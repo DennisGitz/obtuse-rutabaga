@@ -1,0 +1,224 @@
+USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         1  0.0  0.0   2584   628 ?        Ss   Sep12   0:02 init [2]  
+root         2  0.0  0.0      0     0 ?        S    Sep12   0:00 [kthreadd]
+root         3  0.0  0.0      0     0 ?        S    Sep12   0:36 [ksoftirqd/0]
+root         5  0.0  0.0      0     0 ?        S<   Sep12   0:00 [kworker/0:0H]
+root         7  0.0  0.0      0     0 ?        S<   Sep12   0:00 [kworker/u:0H]
+root         8  0.0  0.0      0     0 ?        S    Sep12   0:00 [migration/0]
+root         9  0.0  0.0      0     0 ?        S    Sep12   0:00 [rcu_bh]
+root        10  0.0  0.0      0     0 ?        S    Sep12   1:11 [rcu_sched]
+root        11  0.0  0.0      0     0 ?        S    Sep12   0:01 [watchdog/0]
+root        12  0.0  0.0      0     0 ?        S    Sep12   0:00 [watchdog/1]
+root        13  0.0  0.0      0     0 ?        S    Sep12   0:33 [ksoftirqd/1]
+root        16  0.0  0.0      0     0 ?        S<   Sep12   0:00 [kworker/1:0H]
+root        17  0.0  0.0      0     0 ?        S<   Sep12   0:00 [cpuset]
+root        18  0.0  0.0      0     0 ?        S<   Sep12   0:00 [khelper]
+root        19  0.0  0.0      0     0 ?        S    Sep12   0:00 [kdevtmpfs]
+root        20  0.0  0.0      0     0 ?        S<   Sep12   0:00 [netns]
+root        21  0.0  0.0      0     0 ?        S    Sep12   0:00 [bdi-default]
+root        22  0.0  0.0      0     0 ?        S<   Sep12   0:00 [kintegrityd]
+root        23  0.0  0.0      0     0 ?        S<   Sep12   0:00 [kblockd]
+root        26  0.0  0.0      0     0 ?        S    Sep12   0:00 [khungtaskd]
+root        27  0.0  0.0      0     0 ?        S    Sep12   0:07 [kswapd0]
+root        28  0.0  0.0      0     0 ?        SN   Sep12   0:00 [ksmd]
+root        29  0.0  0.0      0     0 ?        SN   Sep12   0:00 [khugepaged]
+root        30  0.0  0.0      0     0 ?        S    Sep12   0:00 [fsnotify_mark]
+root        31  0.0  0.0      0     0 ?        S<   Sep12   0:00 [crypto]
+root        35  0.0  0.0      0     0 ?        S<   Sep12   0:00 [kthrotld]
+root        36  0.0  0.0      0     0 ?        S<   Sep12   0:00 [deferwq]
+root        96  0.0  0.0      0     0 ?        S    Sep12   0:00 [khubd]
+root       121  0.0  0.0      0     0 ?        S<   Sep12   0:00 [firewire]
+root       122  0.0  0.0      0     0 ?        S<   Sep12   0:00 [ata_sff]
+root       159  0.0  0.0      0     0 ?        S    Sep12   0:18 [scsi_eh_0]
+root       175  0.0  0.0      0     0 ?        S    Sep12   0:00 [scsi_eh_1]
+root       181  0.0  0.0      0     0 ?        S    Sep12   0:00 [scsi_eh_2]
+root       182  0.0  0.0      0     0 ?        S    Sep12   0:00 [scsi_eh_3]
+root       183  0.0  0.0      0     0 ?        S    Sep12   0:00 [scsi_eh_4]
+root       206  0.0  0.0      0     0 ?        S<   Sep12   0:00 [kworker/1:1H]
+root       207  0.0  0.0      0     0 ?        S<   Sep12   0:03 [kworker/0:1H]
+root       237  0.0  0.0      0     0 ?        S    Sep12   0:06 [jbd2/sda1-8]
+root       238  0.0  0.0      0     0 ?        S<   Sep12   0:00 [ext4-dio-unwrit]
+root       385  0.0  0.0   3392  1112 ?        Ss   Sep12   0:00 udevd --daemon
+root       565  0.0  0.0      0     0 ?        S<   Sep12   0:00 [hd-audio0]
+root       580  0.0  0.0      0     0 ?        S<   Sep12   0:00 [kmemstick]
+root       581  0.0  0.0      0     0 ?        S    Sep12   0:00 [r592_io]
+root       584  0.0  0.0      0     0 ?        S<   Sep12   0:00 [cfg80211]
+root       592  0.0  0.0      0     0 ?        S<   Sep12   0:00 [kpsmoused]
+root       641  0.0  0.0      0     0 ?        S<   Sep12   0:00 [r852]
+root      2329  0.0  0.0  31216  1232 ?        Sl   Sep12   0:06 /usr/sbin/rsyslogd -c5
+root      2354  0.0  0.0  13612   948 ?        Ss   Sep12   0:06 /usr/bin/vmware-usbarbitrator
+daemon    2377  0.0  0.0   2476     8 ?        Ss   Sep12   0:00 /usr/sbin/atd
+root      2425  0.0  0.0   2632   744 ?        Ss   Sep12   0:00 /usr/sbin/cron
+root      2455  0.0  0.0  11836   936 ?        Sl   Sep12   0:00 /usr/sbin/pcscd
+102       2458  0.0  0.0   4836  2560 ?        Ss   Sep12   0:44 /usr/bin/dbus-daemon --system
+root      2487  0.0  0.1  29936  4788 ?        Ssl  Sep12   0:31 /usr/sbin/NetworkManager
+root      2530  0.0  0.0  17872  2460 ?        Sl   Sep12   0:00 /usr/sbin/gdm3
+root      2549  0.0  0.1  26404  3588 ?        Sl   Sep12   0:13 /usr/lib/policykit-1/polkitd --no-debug
+root      2553  0.0  0.0   7216  2048 ?        S    Sep12   0:00 /usr/sbin/modem-manager
+pulse     2575  0.0  0.1  97992  3320 ?        S<l  Sep12   0:00 /usr/bin/pulseaudio --system --disallow-exit --disallow-module-loading=1 --daemonize --log-target=syslog --high-priority
+root      2641  0.0  0.0  33384   224 ?        Ssl  Sep12   0:00 /usr/lib/vmware/bin/vmware-vmblock-fuse -o subtype=vmware-vmblock,default_permissions,allow_other /var/run/vmblock-fuse
+root      2665  0.0  0.0  13416   336 ?        Ss   Sep12   0:06 /usr/sbin/vmware-authdlauncher
+root      2683  0.0  0.0  25484  2892 ?        Sl   Sep12   0:00 /usr/lib/accountsservice/accounts-daemon
+root      2689  0.0  0.1  30464  3416 ?        Sl   Sep12   0:02 /usr/sbin/console-kit-daemon --no-daemon
+root      2757  0.0  0.0   6280  2252 ?        S    Sep12   0:18 /sbin/wpa_supplicant -u -s -O /var/run/wpa_supplicant
+root      2806  0.0  0.0   2600   628 tty1     Ss+  Sep12   0:00 /sbin/getty 38400 tty1
+root      2807  0.0  0.0   2600   628 tty2     Ss+  Sep12   0:00 /sbin/getty 38400 tty2
+root      2808  0.0  0.0   2600   628 tty3     Ss+  Sep12   0:00 /sbin/getty 38400 tty3
+root      2809  0.0  0.0   2600   628 tty4     Ss+  Sep12   0:00 /sbin/getty 38400 tty4
+root      2810  0.0  0.0   2600   628 tty5     Ss+  Sep12   0:00 /sbin/getty 38400 tty5
+root      2811  0.0  0.0   2600   628 tty6     Ss+  Sep12   0:00 /sbin/getty 38400 tty6
+root      2831  0.0  0.1  37496  3632 ?        Sl   Sep12   0:17 /usr/lib/upower/upowerd
+root      3024  0.0  0.0      0     0 ?        S    Sep12   0:00 [kauditd]
+root      3129  0.0  0.1  25392  3324 ?        Sl   Sep12   0:04 /usr/lib/udisks/udisks-daemon
+root      3130  0.0  0.0   6680   516 ?        S    Sep12   0:17 udisks-daemon: polling /dev/sr0
+colord    3138  0.0  0.1  27144  3528 ?        Sl   Sep12   0:00 /usr/lib/i386-linux-gnu/colord/colord
+colord    3156  0.0  0.2  46768  8056 ?        Sl   Sep12   0:01 /usr/lib/i386-linux-gnu/colord/colord-sane
+rtkit     3186  0.0  0.0  21368  1116 ?        SNl  Sep12   0:01 /usr/lib/rtkit/rtkit-daemon
+root      5054  0.0  0.0 204224   700 ?        SN   Sep12   0:04 /usr/lib/tracker/tracker-extract
+root      5115  0.0  0.0 204800   700 ?        SN   Sep12   0:00 /usr/lib/tracker/tracker-extract
+root      5136  0.0  0.0 133972   424 ?        SN   Sep12   0:00 /usr/lib/tracker/tracker-extract
+root      5155  0.0  0.0 135512   704 ?        SN   Sep12   0:00 /usr/lib/tracker/tracker-extract
+root      5174  0.0  0.0 139112   772 ?        SN   Sep12   0:02 /usr/lib/tracker/tracker-extract
+root      5192  0.0  0.0 177412   676 ?        SN   Sep12   0:04 /usr/lib/tracker/tracker-extract
+root      5223  0.0  0.0 197652   604 ?        SN   Sep12   0:00 /usr/lib/tracker/tracker-extract
+root      5335  0.0  0.0 201544   648 ?        SN   Sep12   0:04 /usr/lib/tracker/tracker-extract
+root      5379  0.0  0.0 197052   592 ?        SN   Sep12   0:00 /usr/lib/tracker/tracker-extract
+root      5542  0.0  0.0      0     0 ?        S    Sep12   0:09 [flush-8:0]
+root      5629  0.0  0.0  20436  2616 ?        Sl   Sep12   0:00 /usr/lib/gdm3/gdm-simple-slave --display-id /org/gnome/DisplayManager/Display3
+root      5630  1.7  0.4  79988 13988 tty9     Ss+  Sep12 124:55 /usr/bin/Xorg :0 -br -verbose -novtswitch -auth /var/run/gdm3/auth-for-Debian-gdm-1T1ekD/database -nolisten tcp vt9
+root      5692  0.0  0.0  27612  2920 ?        Sl   Sep12   0:00 gdm-session-worker [pam/gdm3]
+gitz      5698  0.0  0.1  70356  3384 ?        Sl   Sep12   0:00 /usr/bin/gnome-keyring-daemon --daemonize --login
+gitz      5715  0.0  0.1  51196  6048 ?        Ssl  Sep12   0:12 gnome-session
+gitz      5761  0.0  0.0   3844   280 ?        S    Sep12   0:00 dbus-launch --autolaunch=340b3951817f45ff9dec0d695443ec24 --binary-syntax --close-stderr
+gitz      5762  0.0  0.0   3352   700 ?        Ss   Sep12   0:00 /usr/bin/dbus-daemon --fork --print-pid 5 --print-address 7 --session
+gitz      5765  0.0  0.0  33624  1928 ?        Sl   Sep12   0:00 /usr/lib/dconf/dconf-service
+gitz      5776  0.0  0.0   4176    24 ?        Ss   Sep12   0:00 /usr/bin/ssh-agent /usr/bin/dbus-launch --exit-with-session gnome-session
+gitz      5779  0.0  0.0   3844   276 ?        S    Sep12   0:00 /usr/bin/dbus-launch --exit-with-session gnome-session
+gitz      5780  0.0  0.0   4096  1508 ?        Ss   Sep12   0:09 /usr/bin/dbus-daemon --fork --print-pid 5 --print-address 7 --session
+gitz      5788  0.0  0.4 413148 14792 ?        Sl   Sep12   1:18 /usr/lib/gnome-settings-daemon/gnome-settings-daemon
+gitz      5798  0.0  0.0   7464  2096 ?        S    Sep12   0:00 /usr/lib/gvfs/gvfsd
+gitz      5802  0.0  0.0   8364  2980 ?        S    Sep12   0:00 /usr/lib/gvfs/gvfs-gdu-volume-monitor
+gitz      5804  0.0  0.0  19340  1760 ?        Sl   Sep12   0:07 /usr/lib/gvfs/gvfs-afc-volume-monitor
+gitz      5807  0.0  0.0   7592  1996 ?        S    Sep12   0:00 /usr/lib/gvfs/gvfs-gphoto2-volume-monitor
+gitz      5815  0.0  0.3 243900 10072 ?        Sl   Sep12   0:27 /usr/bin/metacity
+gitz      5819  0.0  1.7 249492 55796 ?        Sl   Sep12   1:58 gnome-panel
+gitz      5823  0.0  0.0  48572  2740 ?        Sl   Sep12   0:00 /usr/lib/gnome-settings-daemon/gsd-printer
+gitz      5827  0.0  0.0   7212  1928 ?        S    Sep12   0:00 /usr/lib/i386-linux-gnu/gconf/gconfd-2
+gitz      5833  0.0  0.0  33624  2196 ?        Sl   Sep12   0:00 /usr/lib/dconf/dconf-service
+gitz      5837  0.0  0.1  23840  5352 ?        S    Sep12   0:00 /usr/lib/gnome-disk-utility/gdu-notification-daemon
+gitz      5838  0.0  0.1  64944  4384 ?        Sl   Sep12   0:00 /usr/lib/tracker/tracker-store
+gitz      5840  0.0  0.1  67872  4612 ?        SNl  Sep12   0:01 /usr/lib/tracker/tracker-miner-fs
+gitz      5842  0.0  0.2 166420  6896 ?        Sl   Sep12   0:00 bluetooth-applet
+gitz      5843  0.0  0.3 167348 10620 ?        Sl   Sep12   0:10 gnome-screensaver
+gitz      5851  0.0  0.7 228744 22880 ?        Sl   Sep12   0:40 nautilus -n
+gitz      5854  0.0  0.1  58132  5412 ?        Sl   Sep12   0:00 /usr/lib/gnome-settings-daemon/gnome-fallback-mount-helper
+gitz      5860  0.2  0.1  98912  4780 ?        Sl   Sep12  20:33 /usr/bin/pulseaudio --start
+gitz      5862  0.0  0.1  40612  5452 ?        Sl   Sep12   0:01 /usr/lib/notification-daemon/notification-daemon
+gitz      5863  0.0  0.3 226860 10328 ?        Sl   Sep12   0:03 gnome-sound-applet
+gitz      5864  0.0  0.1  31520  5396 ?        Sl   Sep12   0:00 /usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1
+gitz      5865  0.0  0.5 317764 16580 ?        SLl  Sep12   0:23 nm-applet
+gitz      5884  0.0  0.1  40784  3708 ?        Sl   Sep12   0:07 /usr/lib/telepathy/mission-control-5
+gitz      5893  0.0  0.1  94548  3712 ?        Sl   Sep12   0:00 /usr/lib/gnome-online-accounts/goa-daemon
+gitz      5899  0.0  0.0   7976  2688 ?        S    Sep12   0:00 /usr/lib/gvfs/gvfsd-trash --spawner :1.6 /org/gtk/gvfs/exec_spaw/0
+gitz      5911  0.0  0.0   7436  1836 ?        S    Sep12   0:00 /usr/lib/gvfs/gvfsd-burn --spawner :1.6 /org/gtk/gvfs/exec_spaw/1
+gitz      5923  0.0  0.0   7280  2616 ?        S    Sep12   0:00 /usr/lib/gvfs/gvfsd-metadata
+gitz      5924  0.0  0.4 188604 12492 ?        Sl   Sep12   0:17 gnome-terminal
+gitz      5931  0.0  0.0   2400   644 ?        S    Sep12   0:00 gnome-pty-helper
+gitz      5932  0.0  0.0   4916  1540 pts/0    Ss+  Sep12   0:00 bash
+gitz      6027  4.2  5.6 1221636 176680 ?      SLl  Sep12 298:34 /opt/google/chrome/chrome    
+gitz      6036  0.0  0.0   2180   400 ?        S    Sep12   0:00 cat
+gitz      6037  0.0  0.0   2180   412 ?        S    Sep12   0:00 cat
+gitz      6039  0.0  0.0   2260   308 ?        S    Sep12   0:00 /opt/google/chrome/chrome-sandbox /opt/google/chrome/chrome --type=zygote
+gitz      6040  0.0  0.2 184580  7644 ?        S    Sep12   0:00 /opt/google/chrome/chrome --type=zygote
+gitz      6042  0.0  0.0   2260   244 ?        S    Sep12   0:00 /opt/google/chrome/chrome-sandbox /opt/google/chrome/nacl_helper
+gitz      6043  0.0  0.0  19584  1316 ?        S    Sep12   0:00 /opt/google/chrome/nacl_helper
+gitz      6045  0.0  0.1 192776  4720 ?        S    Sep12   0:00 /opt/google/chrome/chrome --type=zygote
+gitz      6063  0.0  0.1 171896  4732 ?        Sl   Sep12   0:24 /opt/google/chrome/chrome --type=gpu-process --channel=6027.0.107156741 --supports-dual-gpus=false --gpu-driver-bug-workarounds=2,15,44 --disable-accelerated-video-decode --gpu-vendor-id=0x8086 --gpu-device-id=0x2a02 --gpu-driver-vendor --gpu-driver-version
+gitz      6072  0.0  0.0 163700   732 ?        S    Sep12   0:00 /opt/google/chrome/chrome --type=gpu-broker                                                                                                                                                                                                           
+gitz      6437  0.0 10.4 671728 323152 ?       Sl   Sep12   6:55 /opt/google/chrome/chrome --type=renderer --enable-deferred-image-decoding --lang=en-US --force-fieldtrials=AffiliationBasedMatching/Enabled/*AutofillEnabled/Default/*CTRequiredForEVTrial/RequirementEnforced/CaptivePortalInterstitial/Enabled/ChildAccountDetection/Disabled/ChromeDashboard/Default/*DomRel-Enable/enable/EnableSessionCrashedBubbleUI/Disabled/*EnhancedBookmarks/Default/*ExtensionContentVerification/Enforce/*ExtensionInstallVerification/None/*IconNTP/Default/*NewProfileManagement/Enabled/*OmniboxBundledExperimentV1/NewSuggestType_A9_Stable_R2/*PasswordGeneration/Disabled/PermissionBubbleRollout/Enabled/*PrerenderFromOmnibox/OmniboxPrerenderEnabled/*QUIC/EnabledNConCubic/RefreshTokenDeviceId/Enabled/*RememberCertificateErrorDecisions/OneWeek/SHA1IdentityUIWarning/Enabled/SHA1ToolbarUIJanuary2016/Warning/SHA1ToolbarUIJanuary2017/Error/*SafeBrowsingIncidentReportingService/Default/*SdchPersistence/Default/SessionRestoreBackgroundLoading/Restore/*SettingsEnforcement/no_enforcement/SyncBackingDatabase32K/Enabled/*UMA-Dynamic-Binary-Uniformity-Trial/default/*UMA-Population-Restrict/normal/*UMA-Uniformity-Trial-1-Percent/group_92/*UMA-Uniformity-Trial-10-Percent/group_03/*UMA-Uniformity-Trial-100-Percent/group_01/*UMA-Uniformity-Trial-20-Percent/group_04/*UMA-Uniformity-Trial-5-Percent/group_15/*UMA
+gitz      6693  0.0  1.5 375504 49540 ?        Sl   Sep12   4:40 sublime
+gitz      6811  0.0  0.0  29532  2956 ?        Sl   Sep12   0:00 /usr/lib/gvfs/gvfsd-http --spawner :1.6 /org/gtk/gvfs/exec_spaw/2
+gitz      8456  3.4  4.3 514864 136180 ?       Sl   Sep16  60:26 /opt/google/chrome/chrome --type=renderer --enable-deferred-image-decoding --lang=en-US --force-fieldtrials=AffiliationBasedMatching/Enabled/*AutofillEnabled/Default/*CTRequiredForEVTrial/RequirementEnforced/CaptivePortalInterstitial/Enabled/ChildAccountDetection/Disabled/ChromeDashboard/Default/*DomRel-Enable/enable/EnableSessionCrashedBubbleUI/Disabled/*EnhancedBookmarks/Default/*ExtensionContentVerification/Enforce/*ExtensionInstallVerification/None/*IconNTP/Default/*NewProfileManagement/Enabled/*OmniboxBundledExperimentV1/NewSuggestType_A9_Stable_R2/*PasswordGeneration/Disabled/*PermissionBubbleRollout/Enabled/*PrerenderFromOmnibox/OmniboxPrerenderEnabled/*QUIC/EnabledNConCubic/RefreshTokenDeviceId/Enabled/*RememberCertificateErrorDecisions/OneWeek/SHA1IdentityUIWarning/Enabled/*SHA1ToolbarUIJanuary2016/Warning/*SHA1ToolbarUIJanuary2017/Error/*SafeBrowsingIncidentReportingService/Default/*SdchPersistence/Default/SessionRestoreBackgroundLoading/Restore/*SettingsEnforcement/no_enforcement/SyncBackingDatabase32K/Enabled/*UMA-Dynamic-Binary-Uniformity-Trial/default/*UMA-Population-Restrict/normal/*UMA-Uniformity-Trial-1-Percent/group_92/*UMA-Uniformity-Trial-10-Percent/group_03/*UMA-Uniformity-Trial-100-Percent/group_01/*UMA-Uniformity-Trial-20-Percent/group_04/*UMA-Uniformity-Trial-5-Percent/group_15/*
+root      9473  0.0  0.0      0     0 ?        S    14:57   0:01 [kworker/0:3]
+root      9762  0.0  0.0   3388   828 ?        S    15:17   0:00 udevd --daemon
+gitz      9774  0.0  2.1 397588 68120 ?        Sl   Sep13   1:20 /opt/google/chrome/chrome --type=renderer --enable-deferred-image-decoding --lang=en-US --force-fieldtrials=AffiliationBasedMatching/Enabled/*AutofillEnabled/Default/*CTRequiredForEVTrial/RequirementEnforced/CaptivePortalInterstitial/Enabled/ChildAccountDetection/Disabled/ChromeDashboard/Default/*DomRel-Enable/enable/EnableSessionCrashedBubbleUI/Disabled/*EnhancedBookmarks/Default/*ExtensionContentVerification/Enforce/*ExtensionInstallVerification/None/*IconNTP/Default/*NewProfileManagement/Enabled/*OmniboxBundledExperimentV1/NewSuggestType_A9_Stable_R2/*PasswordGeneration/Disabled/PermissionBubbleRollout/Enabled/*PrerenderFromOmnibox/OmniboxPrerenderEnabled/*QUIC/EnabledNConCubic/RefreshTokenDeviceId/Enabled/*RememberCertificateErrorDecisions/OneWeek/SHA1IdentityUIWarning/Enabled/SHA1ToolbarUIJanuary2016/Warning/SHA1ToolbarUIJanuary2017/Error/*SafeBrowsingIncidentReportingService/Default/*SdchPersistence/Default/SessionRestoreBackgroundLoading/Restore/*SettingsEnforcement/no_enforcement/SyncBackingDatabase32K/Enabled/*UMA-Dynamic-Binary-Uniformity-Trial/default/*UMA-Population-Restrict/normal/*UMA-Uniformity-Trial-1-Percent/group_92/*UMA-Uniformity-Trial-10-Percent/group_03/*UMA-Uniformity-Trial-100-Percent/group_01/*UMA-Uniformity-Trial-20-Percent/group_04/*UMA-Uniformity-Trial-5-Percent/group_15/*UMA
+gitz      9913  0.0  6.4 515320 199288 ?       Sl   Sep13   0:43 /opt/google/chrome/chrome --type=renderer --enable-deferred-image-decoding --lang=en-US --force-fieldtrials=AffiliationBasedMatching/Enabled/*AutofillEnabled/Default/*CTRequiredForEVTrial/RequirementEnforced/CaptivePortalInterstitial/Enabled/ChildAccountDetection/Disabled/ChromeDashboard/Default/*DomRel-Enable/enable/EnableSessionCrashedBubbleUI/Disabled/*EnhancedBookmarks/Default/*ExtensionContentVerification/Enforce/*ExtensionInstallVerification/None/*IconNTP/Default/*NewProfileManagement/Enabled/*OmniboxBundledExperimentV1/NewSuggestType_A9_Stable_R2/*PasswordGeneration/Disabled/PermissionBubbleRollout/Enabled/*PrerenderFromOmnibox/OmniboxPrerenderEnabled/*QUIC/EnabledNConCubic/RefreshTokenDeviceId/Enabled/*RememberCertificateErrorDecisions/OneWeek/SHA1IdentityUIWarning/Enabled/SHA1ToolbarUIJanuary2016/Warning/SHA1ToolbarUIJanuary2017/Error/*SafeBrowsingIncidentReportingService/Default/*SdchPersistence/Default/SessionRestoreBackgroundLoading/Restore/*SettingsEnforcement/no_enforcement/SyncBackingDatabase32K/Enabled/*UMA-Dynamic-Binary-Uniformity-Trial/default/*UMA-Population-Restrict/normal/*UMA-Uniformity-Trial-1-Percent/group_92/*UMA-Uniformity-Trial-10-Percent/group_03/*UMA-Uniformity-Trial-100-Percent/group_01/*UMA-Uniformity-Trial-20-Percent/group_04/*UMA-Uniformity-Trial-5-Percent/group_15/*UMA
+gitz     10242  0.0  2.5 420908 80708 ?        Sl   Sep13   3:29 /opt/google/chrome/chrome --type=renderer --enable-deferred-image-decoding --lang=en-US --force-fieldtrials=AffiliationBasedMatching/Enabled/*AutofillEnabled/Default/*CTRequiredForEVTrial/RequirementEnforced/CaptivePortalInterstitial/Enabled/ChildAccountDetection/Disabled/ChromeDashboard/Default/*DomRel-Enable/enable/EnableSessionCrashedBubbleUI/Disabled/*EnhancedBookmarks/Default/*ExtensionContentVerification/Enforce/*ExtensionInstallVerification/None/*IconNTP/Default/*NewProfileManagement/Enabled/*OmniboxBundledExperimentV1/NewSuggestType_A9_Stable_R2/*PasswordGeneration/Disabled/PermissionBubbleRollout/Enabled/*PrerenderFromOmnibox/OmniboxPrerenderEnabled/*QUIC/EnabledNConCubic/RefreshTokenDeviceId/Enabled/*RememberCertificateErrorDecisions/OneWeek/SHA1IdentityUIWarning/Enabled/SHA1ToolbarUIJanuary2016/Warning/SHA1ToolbarUIJanuary2017/Error/*SafeBrowsingIncidentReportingService/Default/*SdchPersistence/Default/SessionRestoreBackgroundLoading/Restore/*SettingsEnforcement/no_enforcement/SyncBackingDatabase32K/Enabled/*UMA-Dynamic-Binary-Uniformity-Trial/default/*UMA-Population-Restrict/normal/*UMA-Uniformity-Trial-1-Percent/group_92/*UMA-Uniformity-Trial-10-Percent/group_03/*UMA-Uniformity-Trial-100-Percent/group_01/*UMA-Uniformity-Trial-20-Percent/group_04/*UMA-Uniformity-Trial-5-Percent/group_15/*UMA
+gitz     10351  0.0  2.4 367708 76644 ?        Sl   Sep13   0:05 /opt/google/chrome/chrome --type=renderer --enable-deferred-image-decoding --lang=en-US --force-fieldtrials=AffiliationBasedMatching/Enabled/*AutofillEnabled/Default/*CTRequiredForEVTrial/RequirementEnforced/CaptivePortalInterstitial/Enabled/ChildAccountDetection/Disabled/ChromeDashboard/Default/*DomRel-Enable/enable/EnableSessionCrashedBubbleUI/Disabled/*EnhancedBookmarks/Default/*ExtensionContentVerification/Enforce/*ExtensionInstallVerification/None/*IconNTP/Default/*NewProfileManagement/Enabled/*OmniboxBundledExperimentV1/NewSuggestType_A9_Stable_R2/*PasswordGeneration/Disabled/PermissionBubbleRollout/Enabled/*PrerenderFromOmnibox/OmniboxPrerenderEnabled/*QUIC/EnabledNConCubic/RefreshTokenDeviceId/Enabled/*RememberCertificateErrorDecisions/OneWeek/SHA1IdentityUIWarning/Enabled/SHA1ToolbarUIJanuary2016/Warning/SHA1ToolbarUIJanuary2017/Error/*SafeBrowsingIncidentReportingService/Default/*SdchPersistence/Default/SessionRestoreBackgroundLoading/Restore/*SettingsEnforcement/no_enforcement/SyncBackingDatabase32K/Enabled/*UMA-Dynamic-Binary-Uniformity-Trial/default/*UMA-Population-Restrict/normal/*UMA-Uniformity-Trial-1-Percent/group_92/*UMA-Uniformity-Trial-10-Percent/group_03/*UMA-Uniformity-Trial-100-Percent/group_01/*UMA-Uniformity-Trial-20-Percent/group_04/*UMA-Uniformity-Trial-5-Percent/group_15/*UMA
+root     10621  0.0  0.0      0     0 ?        S    18:42   0:00 [migration/1]
+root     10655  0.0  0.0   3388   724 ?        S    18:42   0:00 udevd --daemon
+root     10898  0.1  0.0      0     0 ?        S    18:42   0:02 [irq/17-b43]
+root     10985  0.0  0.1   5484  3136 ?        S    18:43   0:00 /sbin/dhclient -d -4 -sf /usr/lib/NetworkManager/nm-dhcp-client.action -pf /var/run/dhclient-wlan0.pid -lf /var/lib/dhcp/dhclient-819de017-782f-425c-a2d6-cb97d891b9d3-wlan0.lease -cf /var/run/nm-dhclient-wlan0.conf wlan0
+root     11181  1.0  2.9 311200 92896 ?        Sl   18:46   0:21 /usr/lib/chromium/chromium --type=renderer --enable-deferred-image-decoding --lang=en-US --force-fieldtrials=Prerender/PrerenderMulti/PrerenderFromOmnibox/OmniboxPrerenderEnabled/UMA-New-Install-Uniformity-Trial/Experiment/UMA-Session-Randomized-Uniformity-Trial-5-Percent/group_05/UMA-Uniformity-Trial-1-Percent/group_49/UMA-Uniformity-Trial-10-Percent/group_06/UMA-Uniformity-Trial-100-Percent/group_01/UMA-Uniformity-Trial-20-Percent/group_02/UMA-Uniformity-Trial-5-Percent/group_10/UMA-Uniformity-Trial-50-Percent/default/ --user-data-dir --renderer-print-preview --enable-offline-auto-reload --enable-offline-load-stale-cache --enable-threaded-compositing --enable-delegated-renderer --enable-impl-side-painting --disable-accelerated-video-decode --disable-webrtc-hw-encoding --disable-gpu-compositing --channel=11267.24.275266386
+root     11192  0.0  0.1   4920  3216 pts/3    Ss+  18:47   0:00 bash
+root     11267  0.1  3.7 626028 116252 ?       SLl  Sep16   2:16 /usr/lib/chromium/chromium --password-store=detect --user-data-dir
+root     11278  0.0  0.0   2264   524 ?        S    Sep16   0:00 /usr/lib/chromium/chrome-sandbox /usr/lib/chromium/chromium --type=zygote --user-data-dir
+root     11280  0.0  0.2 167332  6892 ?        S    Sep16   0:00 /usr/lib/chromium/chromium --type=zygote --user-data-dir
+root     11289  0.0  0.1 176552  4820 ?        S    Sep16   0:00 /usr/lib/chromium/chromium --type=zygote --user-data-dir
+root     11307  0.0  0.0      0     0 ?        S    19:00   0:00 [kworker/u:2]
+root     11318  0.0  0.0      0     0 ?        S    19:07   0:00 [kworker/1:2]
+root     11332  0.0  0.2 161736  7772 ?        Sl   Sep16   0:07 /usr/lib/chromium/chromium --type=gpu-process --channel=11267.0.1994986745 --user-data-dir --supports-dual-gpus=false --gpu-driver-bug-workarounds=1,11,15 --disable-accelerated-video-decode --gpu-vendor-id=0x8086 --gpu-device-id=0x2a02 --gpu-driver-vendor --gpu-driver-version --user-data-dir
+root     11343  0.0  0.1 152516  4700 ?        S    Sep16   0:00 /usr/lib/chromium/chromium --type=gpu-broker                                                                                                                                                                                                                                            
+root     11372  0.0  0.0      0     0 ?        S    19:11   0:00 [kworker/1:3]
+root     11375  0.0  0.0      0     0 ?        S    19:12   0:00 [kworker/u:1]
+root     11382  0.0  0.0      0     0 ?        S    19:13   0:00 [kworker/0:1]
+root     11390  0.0  0.0      0     0 ?        S    19:16   0:00 [kworker/1:0]
+root     11394  0.0  0.0      0     0 ?        S    19:18   0:00 [kworker/u:0]
+root     11395  0.0  0.0      0     0 ?        S    19:18   0:00 [kworker/0:0]
+root     11396  0.0  0.0      0     0 ?        S    19:18   0:00 [kworker/1:1]
+root     11418  0.0  0.0   3136  1052 pts/2    R+   19:21   0:00 ps aux
+root     14628  0.0  0.4 187928 13972 ?        Sl   Sep16   0:04 gnome-terminal
+root     14634  0.0  0.0   2400   692 ?        S    Sep16   0:00 gnome-pty-helper
+root     14635  0.0  0.1   4932  3188 pts/2    Ss   Sep16   0:00 bash
+gitz     23078  0.0  4.2 462828 130464 ?       Sl   Sep15   1:11 /opt/google/chrome/chrome --type=renderer --enable-deferred-image-decoding --lang=en-US --force-fieldtrials=AffiliationBasedMatching/Enabled/*AutofillEnabled/Default/*CTRequiredForEVTrial/RequirementEnforced/CaptivePortalInterstitial/Enabled/ChildAccountDetection/Disabled/ChromeDashboard/Default/*DomRel-Enable/enable/EnableSessionCrashedBubbleUI/Disabled/*EnhancedBookmarks/Default/*ExtensionContentVerification/Enforce/*ExtensionInstallVerification/None/*IconNTP/Default/*NewProfileManagement/Enabled/*OmniboxBundledExperimentV1/NewSuggestType_A9_Stable_R2/*PasswordGeneration/Disabled/*PermissionBubbleRollout/Enabled/*PrerenderFromOmnibox/OmniboxPrerenderEnabled/*QUIC/EnabledNConCubic/RefreshTokenDeviceId/Enabled/*RememberCertificateErrorDecisions/OneWeek/SHA1IdentityUIWarning/Enabled/*SHA1ToolbarUIJanuary2016/Warning/SHA1ToolbarUIJanuary2017/Error/*SafeBrowsingIncidentReportingService/Default/*SdchPersistence/Default/SessionRestoreBackgroundLoading/Restore/*SettingsEnforcement/no_enforcement/SyncBackingDatabase32K/Enabled/*UMA-Dynamic-Binary-Uniformity-Trial/default/*UMA-Population-Restrict/normal/*UMA-Uniformity-Trial-1-Percent/group_92/*UMA-Uniformity-Trial-10-Percent/group_03/*UMA-Uniformity-Trial-100-Percent/group_01/*UMA-Uniformity-Trial-20-Percent/group_04/*UMA-Uniformity-Trial-5-Percent/group_15/*U
+root     24677  0.0  0.1  20436  3360 ?        Sl   Sep15   0:00 /usr/lib/gdm3/gdm-simple-slave --display-id /org/gnome/DisplayManager/Display5
+root     24682  0.4  0.5  72464 16732 tty8     Rs+  Sep15  13:51 /usr/bin/Xorg :1 -br -verbose -novtswitch -auth /var/run/gdm3/auth-for-Debian-gdm-hqO2Mk/database -nolisten tcp vt8
+root     24747  0.0  0.1  27608  3352 ?        Sl   Sep15   0:00 gdm-session-worker [pam/gdm3]
+root     24754  0.0  0.1  62048  3544 ?        Sl   Sep15   0:00 /usr/bin/gnome-keyring-daemon --daemonize --login
+root     24771  0.0  0.2  51060  7216 ?        Ssl  Sep15   0:12 x-session-manager
+root     24816  0.0  0.0   3844   476 ?        S    Sep15   0:00 dbus-launch --autolaunch=340b3951817f45ff9dec0d695443ec24 --binary-syntax --close-stderr
+root     24817  0.0  0.0   3352   908 ?        Ss   Sep15   0:00 /usr/bin/dbus-daemon --fork --print-pid 5 --print-address 7 --session
+root     24820  0.0  0.0  33744  2340 ?        Sl   Sep15   0:00 /usr/lib/dconf/dconf-service
+root     24832  0.0  0.0   4176   212 ?        Ss   Sep15   0:00 /usr/bin/ssh-agent /usr/bin/dbus-launch --exit-with-session x-session-manager
+root     24835  0.0  0.0   3844   468 ?        S    Sep15   0:00 /usr/bin/dbus-launch --exit-with-session x-session-manager
+root     24836  0.0  0.0   4372  1980 ?        Ss   Sep15   0:15 /usr/bin/dbus-daemon --fork --print-pid 5 --print-address 7 --session
+root     24844  0.0  0.4 347556 15308 ?        Sl   Sep15   1:00 /usr/lib/gnome-settings-daemon/gnome-settings-daemon
+root     24854  0.0  0.0   7464  2224 ?        S    Sep15   0:00 /usr/lib/gvfs/gvfsd
+root     24858  0.0  0.1   8232  3132 ?        S    Sep15   0:00 /usr/lib/gvfs/gvfs-gdu-volume-monitor
+root     24860  0.0  0.0  19340  1964 ?        Sl   Sep15   0:04 /usr/lib/gvfs/gvfs-afc-volume-monitor
+root     24863  0.0  0.0   7592  2148 ?        S    Sep15   0:00 /usr/lib/gvfs/gvfs-gphoto2-volume-monitor
+root     24871  0.0  0.3 243588 10284 ?        Sl   Sep15   0:05 /usr/bin/metacity
+root     24874  0.0  0.8 218724 26044 ?        Sl   Sep15   0:27 gnome-panel
+root     24883  0.0  0.0   7208  2568 ?        S    Sep15   0:00 /usr/lib/i386-linux-gnu/gconf/gconfd-2
+root     24885  0.0  0.1  48572  3268 ?        Sl   Sep15   0:00 /usr/lib/gnome-settings-daemon/gsd-printer
+root     24891  0.0  0.0  33744  2372 ?        Sl   Sep15   0:00 /usr/lib/dconf/dconf-service
+root     24895  0.0  0.2  23852  6568 ?        S    Sep15   0:00 /usr/lib/gnome-disk-utility/gdu-notification-daemon
+root     24896  0.0  0.3  69420 11288 ?        Sl   Sep15   1:16 /usr/lib/tracker/tracker-store
+root     24899  0.0  2.8 148896 87896 ?        SNl  Sep15   0:58 /usr/lib/tracker/tracker-miner-fs
+root     24902  0.0  0.3 166372  9340 ?        Sl   Sep15   0:00 bluetooth-applet
+root     24904  0.0  0.3 167348 10860 ?        Sl   Sep15   0:04 gnome-screensaver
+root     24906  0.0  0.6 312500 19236 ?        Sl   Sep15   0:09 nautilus -n
+root     24909  0.0  0.1  89712  5172 ?        S<l  Sep15   1:58 /usr/bin/pulseaudio --start
+root     24913  0.0  0.2  57996  6588 ?        Sl   Sep15   0:00 /usr/lib/gnome-settings-daemon/gnome-fallback-mount-helper
+root     24914  0.0  0.3 168140 12132 ?        Sl   Sep15   0:05 /usr/lib/notification-daemon/notification-daemon
+root     24915  0.0  0.3 226764 11292 ?        Sl   Sep15   0:01 gnome-sound-applet
+root     24928  0.0  0.2  31380  6572 ?        Sl   Sep15   0:00 /usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1
+root     24929  0.0  0.5 317780 17324 ?        Sl   Sep15   0:13 nm-applet
+root     24937  0.0  0.0   7976  2756 ?        S    Sep15   0:00 /usr/lib/gvfs/gvfsd-trash --spawner :1.6 /org/gtk/gvfs/exec_spaw/0
+root     24940  0.0  0.0   7436  2184 ?        S    Sep15   0:00 /usr/lib/gvfs/gvfsd-burn --spawner :1.6 /org/gtk/gvfs/exec_spaw/1
+root     24943  0.0  0.1  40792  4188 ?        Sl   Sep15   0:04 /usr/lib/telepathy/mission-control-5
+root     24947  0.0  0.1  94548  5604 ?        Sl   Sep15   0:00 /usr/lib/gnome-online-accounts/goa-daemon
+root     24968  0.0  0.0   7244  2712 ?        S    Sep15   0:00 /usr/lib/gvfs/gvfsd-metadata
+root     25179  0.0  0.5 205336 17388 ?        SN   Sep15   0:03 /usr/lib/tracker/tracker-extract
+root     25223  0.0  0.4 211268 15020 ?        SN   Sep15   0:04 /usr/lib/tracker/tracker-extract
+root     25241  0.0  0.1 134652  3244 ?        SN   Sep15   0:00 /usr/lib/tracker/tracker-extract
+root     25261  0.0  0.1 139504  4144 ?        SN   Sep15   0:02 /usr/lib/tracker/tracker-extract
+root     25280  0.0  0.1 142028  4892 ?        SN   Sep15   0:04 /usr/lib/tracker/tracker-extract
+root     25301  0.0  0.1 141720  4804 ?        SN   Sep15   0:02 /usr/lib/tracker/tracker-extract
+root     25320  0.0  0.0 134992  2788 ?        SN   Sep15   0:00 /usr/lib/tracker/tracker-extract
+root     25352  0.0  0.4 197632 14220 ?        SN   Sep15   0:00 /usr/lib/tracker/tracker-extract
+root     25396  0.0  0.5 216860 18560 ?        SN   Sep15   0:05 /usr/lib/tracker/tracker-extract
+root     25421  0.0  0.6 208780 19032 ?        SN   Sep15   0:00 /usr/lib/tracker/tracker-extract
+root     25438  0.0  0.0 135780  2856 ?        SN   Sep15   0:01 /usr/lib/tracker/tracker-extract
+root     25480  0.0  0.4 197076 13448 ?        SN   Sep15   0:00 /usr/lib/tracker/tracker-extract
+gitz     31129  0.0  0.0   4916  2472 pts/1    Ss+  Sep16   0:00 bash
